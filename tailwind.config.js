@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         play: ["Playfair"],
-        inter: ["Inter"],
+        open: ["Open Sans"],
       },
       backgroundImage: {
         greenimg: 'url("./assets/bg-green.png")',
