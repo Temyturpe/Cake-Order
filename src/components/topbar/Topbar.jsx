@@ -6,7 +6,7 @@ import { BiMenu } from "react-icons/bi";
 
 const Topbar = () => {
   return (
-    <div className="main fixed top-0 left-0 w-full z-10">
+    <div className="main fixed top-0 left-0 w-full z-10 font-open">
       <div className="bg-[#f2ede8] py-3 md:py-5 px-5 md:px-[120px] mx-auto ">
         <div className="maincontent flex justify-between">
           <div className="left flex items-center">
@@ -16,7 +16,7 @@ const Topbar = () => {
             <div className="name text-xl text-[#725654]">Tee's Bakery</div>
           </div>
           <div className="right items-center text-[#725654] flex">
-            <div className="link mr-12 text-lg hidden md:flex">
+            <div className="link mr-12 hidden md:flex">
               <ul className="flex gap-12 ">
                 <li>home</li>
                 <li>menu</li>
@@ -25,7 +25,9 @@ const Topbar = () => {
               </ul>
             </div>
             <div className="orderbtn mr-5 text-white sm:flex hidden ">
-              <button className="bg-[#bf8b81] py-2 px-6 ">order online</button>
+              <button className="bg-[#bf8b81] py-2 px-6 text-sm">
+                order online
+              </button>
             </div>
             <div className="cart text-xl flex reletive">
               <div className="icon">
