@@ -18,6 +18,14 @@ module.exports = {
         greenimg: 'url("./assets/bg-green.png")',
         subg: 'url("./assets/subbg.png")',
       },
+      backgroundColor: {
+        dark: "#725654",
+        lite: "#f2ede8",
+        mid: "#bf8b81",
+      },
+      textColor: {
+        dark: "#725654",
+      },
     },
   },
   plugins: [],
