@@ -33,7 +33,7 @@ const Header = () => {
             <img
               src={Head}
               alt=""
-              className="w-full h-[35vh] md:h-[70vh] sm:mt-0 mt-12 "
+              className="w-full h-[35vh] md:h-[70vh] object-cover sm:mt-0 mt-12 "
             />
           </div>
         </div>
