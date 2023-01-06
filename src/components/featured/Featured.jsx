@@ -11,8 +11,8 @@ const Featured = () => {
       <div className="title uppercase mb-7 md:mb-2 text-dark font-play text-4xl sm:text-5xl md:text-[65px] tracking-tight">
         featured products
       </div>
-      <div className="productbox flex flex-wrap items-center justify-center gap-5">
-        <div className="product1 w-full sm:w-[250px] group relative">
+      <div className="productbox grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center justify-center gap-5">
+        <div className="product1 w-full  group relative">
           <img
             src={Cake}
             alt=""
@@ -27,7 +27,7 @@ const Featured = () => {
             view product
           </div>
         </div>
-        <div className="product2 w-full sm:w-[250px] group relative">
+        <div className="product2 w-full  group relative">
           <img
             src={Bread}
             alt=""
@@ -42,7 +42,7 @@ const Featured = () => {
             view product
           </div>
         </div>
-        <div className="product3 w-full sm:w-[250px] group relative">
+        <div className="product3 w-full  group relative">
           <img
             src={Chops}
             alt=""
@@ -57,7 +57,7 @@ const Featured = () => {
             view product
           </div>
         </div>
-        <div className="product4 w-full sm:w-[250px] group relative">
+        <div className="product4 w-full  group relative">
           <img
             src={Parfait}
             alt=""
@@ -72,7 +72,7 @@ const Featured = () => {
             view product
           </div>
         </div>
-        <div className="product5 w-full sm:w-[250px] group relative">
+        <div className="product5 w-full  group relative">
           <img
             src={Cookies}
             alt=""
