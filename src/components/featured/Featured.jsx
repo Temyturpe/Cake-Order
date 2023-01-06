@@ -23,7 +23,7 @@ const Featured = () => {
             <div className="category">Cakes</div>
             <div className="price"> &#8358;20,000</div>
           </div>
-          <div className="btn absolute w-[50%] sm:w-[45%] flex justify-center items-center top-0 right-0 p-1 capitalize bg-mid text-white opacity-0 group-hover:opacity-100 duration-100 text-xs sm:text-sm">
+          <div className="btn absolute w-[65%] sm:w-[45%] flex justify-center items-center top-0 right-0 p-1 capitalize bg-mid text-white opacity-0 group-hover:opacity-100 duration-100 text-xs sm:text-sm">
             view product
           </div>
         </div>
@@ -38,7 +38,7 @@ const Featured = () => {
             <div className="category">Breads</div>
             <div className="price"> &#8358;3,500</div>
           </div>
-          <div className="btn absolute w-[50%] sm:w-[45%] flex justify-center items-center top-0 right-0 p-1 capitalize bg-mid text-white opacity-0 group-hover:opacity-100 duration-100 text-xs sm:text-sm">
+          <div className="btn absolute w-[65%] sm:w-[45%] flex justify-center items-center top-0 right-0 p-1 capitalize bg-mid text-white opacity-0 group-hover:opacity-100 duration-100 text-xs sm:text-sm">
             view product
           </div>
         </div>
@@ -53,7 +53,7 @@ const Featured = () => {
             <div className="category">Small chops</div>
             <div className="price"> &#8358;1,500</div>
           </div>
-          <div className="btn absolute w-[50%] sm:w-[45%] flex justify-center items-center top-0 right-0 p-1 capitalize bg-mid text-white opacity-0 group-hover:opacity-100 duration-100 text-xs sm:text-sm">
+          <div className="btn absolute w-[65%] sm:w-[45%] flex justify-center items-center top-0 right-0 p-1 capitalize bg-mid text-white opacity-0 group-hover:opacity-100 duration-100 text-xs sm:text-sm">
             view product
           </div>
         </div>
@@ -68,7 +68,7 @@ const Featured = () => {
             <div className="category">Desserts</div>
             <div className="price"> &#8358;2,000</div>
           </div>
-          <div className="btn absolute w-[50%] sm:w-[45%] flex justify-center items-center top-0 right-0 p-1 capitalize bg-mid text-white opacity-0 group-hover:opacity-100 duration-100 text-xs sm:text-sm">
+          <div className="btn absolute w-[65%] sm:w-[45%] flex justify-center items-center top-0 right-0 p-1 capitalize bg-mid text-white opacity-0 group-hover:opacity-100 duration-100 text-xs sm:text-sm">
             view product
           </div>
         </div>
@@ -83,7 +83,7 @@ const Featured = () => {
             <div className="category">Cookies</div>
             <div className="price"> &#8358;1,200</div>
           </div>
-          <div className="btn absolute w-[50%] sm:w-[45%] flex justify-center items-center top-0 right-0 p-1 capitalize bg-mid text-white opacity-0 group-hover:opacity-100 duration-100 text-xs sm:text-sm">
+          <div className="btn absolute w-[65%] sm:w-[45%] flex justify-center items-center top-0 right-0 p-1 capitalize bg-mid text-white opacity-0 group-hover:opacity-100 duration-100 text-xs sm:text-sm">
             view product
           </div>
         </div>
