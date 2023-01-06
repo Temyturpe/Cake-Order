@@ -64,7 +64,7 @@ const Featured = () => {
             className="h-[250px] w-full object-cover shadow-md"
           />
           <div className="detail mt-6 leading-normal text-dark">
-            <div className="name font-semibold">Chocolate Cake Parfait</div>
+            <div className="name font-semibold">Chocolate Parfait</div>
             <div className="category">Desserts</div>
             <div className="price"> &#8358;2,000</div>
           </div>
