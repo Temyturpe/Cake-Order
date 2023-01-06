@@ -7,15 +7,17 @@ import { BiMenu } from "react-icons/bi";
 const Topbar = () => {
   return (
     <div className="main fixed top-0 left-0 w-full z-10 font-open">
-      <div className="bg-[#f2ede8] py-3 md:py-5 px-5 md:px-[120px] mx-auto ">
+      <div className="bg-lite py-3 md:py-5 px-5 md:px-[120px] mx-auto ">
         <div className="maincontent flex justify-between">
           <div className="left flex items-center">
             <div className="icon">
               <img src={Logo} alt="" className="w-12 h-12 object-cover" />
             </div>
-            <div className="name text-xl text-[#725654]">Tee's Bakery</div>
+            <div className="name text-lg sm:text-xl text-dark">
+              Tee's Bakery
+            </div>
           </div>
-          <div className="right items-center text-[#725654] flex">
+          <div className="right items-center text-dark flex">
             <div className="link mr-12 hidden md:flex">
               <ul className="flex gap-12 ">
                 <li>home</li>
@@ -25,7 +27,7 @@ const Topbar = () => {
               </ul>
             </div>
             <div className="orderbtn mr-5 text-white sm:flex hidden ">
-              <button className="bg-[#bf8b81] py-2 px-6 text-sm">
+              <button className="bg-mid shadow-md py-2 px-6 text-sm">
                 order online
               </button>
             </div>
@@ -43,7 +45,7 @@ const Topbar = () => {
           </div>
         </div>
       </div>
-      <div className="empty w-full p-[10px] bg-[#bf8b81]"></div>
+      <div className="empty w-full p-[10px] bg-mid"></div>
     </div>
   );
 };
