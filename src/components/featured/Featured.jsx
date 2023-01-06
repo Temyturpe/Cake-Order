@@ -1,9 +1,9 @@
 import React from "react";
-import Cake from "../../assets/images/menucake1.jpg";
-import Cookies from "../../assets/images/menucookies.jpg";
-import Bread from "../../assets/images/menubread.jpg";
+import Cake from "../../assets/images/menucake1.PNG";
+import Cookies from "../../assets/images/menucookies.PNG";
+import Bread from "../../assets/images/menubread.PNG";
 import Parfait from "../../assets/images/menuparfait.PNG";
-import Chops from "../../assets/images/menuchops.jpg";
+import Chops from "../../assets/images/menuchops.PNG";
 
 const Featured = () => {
   return (
