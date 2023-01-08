@@ -4,7 +4,7 @@ import Head from "../../assets/images/headerimg.png";
 
 const Header = () => {
   return (
-    <div className="sm:pt-0 pt-32 md:pt-[150px]">
+    <div className="sm:pt-0 pt-32 md:pt-[150px] px-5 md:px-[120px] mx-auto">
       <div className="relative w-full h-[70vh] sm:pt-8 md:pt-14">
         <div className="iconbg">
           <img
