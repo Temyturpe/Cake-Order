@@ -13,7 +13,7 @@ const AboutHome = () => {
                 <img src={Baker} alt=""className='sm:w-[300px] w-[250px] md:w-[400px] sm:h-full object-cover' /></div>
                <div className="right flex-1 text-white ">
                  <div className="title text-4xl sm:text-[45px] md:text-[60px]  font-play font-semibold tracking-tight">About The Chef</div>
-                 <p className=' font-open mt-2 sm:mt-4 text-sm md:text-base'>Hi! My name is Desiree Passaro, I’m the owner and chef of Cannella. After years of learning, traveling, tasting and experimenting, I’m excited to share with you the result of my inspirations come to life. Cannella is a modern take on classic European pastry techniques combined with the Latino and Caribbean flavors that represent our culture.</p>
+                 <p className=' font-open mt-2 sm:mt-4 text-sm md:text-base'>Hi! My name is Temitope Okesanya, I’m the owner and baker of Tee's Bakery. After years of learning, traveling, tasting and experimenting, I’m excited to share with you the result of my inspirations come to life. Tee's Bakery is a modern take on classic Nigerian pastry techniques combined with the Latino and Caribbean flavors that represent our culture.</p>
                  <button className='flex items-center justify-center border-solid border-[1px] border-white py-2 px-10 mt-8 hover:bg-white hover:text-dark text-sm md:text-base'>learn more</button>
               </div>
             </div>
