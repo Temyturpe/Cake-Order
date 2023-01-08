@@ -7,7 +7,7 @@ import Chops from "../../assets/images/menuChops2.jpg";
 
 const Featured = () => {
   return (
-    <div className="mt-36">
+    <div className="px-5 md:px-[120px] mx-auto mt-36">
       <div className="title uppercase mb-7 md:mb-2 text-dark font-play text-3xl sm:text-5xl md:text-[65px] tracking-tight">
         featured products
       </div>
