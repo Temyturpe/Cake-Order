@@ -6,7 +6,7 @@ import Small from "../../assets/images/smallchopscat.jpg";
 
 const Categories = () => {
   return (
-    <div className="pt-20 sm:pt-8 md:pt-40 block sm:flex justify-between gap-2 sm:gap-6 ">
+    <div className="pt-20 px-5 md:px-[120px] mx-auto sm:pt-8 md:pt-40 block sm:flex justify-between gap-2 sm:gap-6 ">
       <div className="cat-1 flex-1 cursor-pointer">
         <div className="name text-2xl mt-8 sm:mt-0 md:text-[26px] font-semibold text-dark mb-2 sm:mb-4">
           Cakes
