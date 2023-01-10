@@ -6,8 +6,8 @@ import { BiMenu } from "react-icons/bi";
 
 const Topbar = () => {
   return (
-    <div className="main fixed top-0 left-0 w-full z-10 font-open">
-      <div className="bg-lite py-3 md:py-5 px-5 md:px-[120px] mx-auto ">
+    <div className="main">
+      <div className="bg-lite py-3 md:py-5 px-5 md:px-[120px] shadow-md mx-auto fixed top-0 left-0 w-full z-10 font-open">
         <div className="maincontent flex justify-between">
           <div className="left flex items-center">
             <div className="icon">
@@ -45,7 +45,7 @@ const Topbar = () => {
           </div>
         </div>
       </div>
-      <div className="empty w-full p-[10px] bg-mid"></div>
+      <div className="empty w-full p-[10px] mt-[87px] bg-mid"></div>
     </div>
   );
 };

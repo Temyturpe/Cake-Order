@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App bg-lite pb-32">
+    <div className="App">
       <Topbar />
       <Home />
     </div>
