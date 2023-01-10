@@ -15,7 +15,7 @@ module.exports = {
         open: ["Open Sans"],
       },
       backgroundImage: {
-        greenimg: 'url("./assets/bg-green.png")',
+        multi: 'url("./assets/images/multi.PNG")',
         subg: 'url("./assets/subbg.png")',
       },
       backgroundColor: {
@@ -25,6 +25,7 @@ module.exports = {
       },
       textColor: {
         dark: "#725654",
+        myblack: '#585757',
       },
     },
   },
