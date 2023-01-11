@@ -21,7 +21,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="address text-sm sm:text-base ml-2 sm:ml-0 uppercase font-open text-white mt-8 sm:mt-4 flex flex-col gap-3">
+                    <div className="address text-sm sm:text-base uppercase font-open text-white mt-8 sm:mt-4 flex flex-col gap-3">
                         <p>jakande estate, oke-afa</p>
                         <p>isolo, lagos state.</p>
                         <p>09075228079</p>

@@ -4,13 +4,13 @@ import Head from "../../assets/images/headerimg.png";
 
 const Header = () => {
   return (
-    <div className="pt-0  md:pt-[90px] px-5 md:px-[120px] mx-auto">
+    <div className="pt-0  md:pt-[35px] px-5 md:px-[120px] mx-auto">
       <div className="relative w-full h-[70vh] sm:pt-8 md:pt-14">
         <div className="iconbg">
           <img
             src={Bgicon}
             alt=""
-            className="w-[450px] h-[400px] opacity-10 -ml-32 -mb-20"
+            className="w-[350px] opacity-10 -ml-32 -mb-20"
           />
         </div>
         <div className="contentbox absolute h-full w-full top-0 left-0 pt-8 md:pt-14 text-dark sm:flex justify-center items-center gap-10">
