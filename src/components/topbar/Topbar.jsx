@@ -45,7 +45,7 @@ const Topbar = () => {
           </div>
         </div>
       </div>
-      <div className="empty w-full p-[10px] mt-[87px] bg-mid"></div>
+      <div className="empty w-full p-[10px] mt-[70px] md:mt-[87px] bg-mid"></div>
     </div>
   );
 };
