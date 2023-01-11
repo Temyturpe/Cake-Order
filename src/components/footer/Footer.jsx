@@ -3,7 +3,7 @@ import Icon from '../../assets/images/iconwhite.PNG'
 
 const Footer = () => {
     return (
-        <div className='bg-mid'>
+        <div className='bg-dark'>
             <div className="content px-5 md:px-[120px] mx-auto py-8 ">
                 <div className="mainfoot flex flex-col sm:flex-row w-full sm:justify-between">
                     <div className="iconlink flex justify-center sm:justify-start items-center sm:items-start w-full flex-col sm:flex-row gap-12">
