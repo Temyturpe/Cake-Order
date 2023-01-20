@@ -20,7 +20,6 @@ export default function Instagram() {
     return (
         <>
             <Swiper
-                slidesPerView={6}
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: true,
@@ -29,16 +28,23 @@ export default function Instagram() {
                     clickable: true,
                 }}
                 breakpoints={{
-                    640: {
+                    300: {
                         slidesPerView: 2,
                     },
-                    768: {
+                    430: {
+                        slidesPerView: 3,
+                    },
+                    620: {
                         slidesPerView: 4,
                     },
-                    1024: {
+                    840: {
                         slidesPerView: 5,
                     },
+                    1200: {
+                        slidesPerView: 6,
+                    },
                 }}
+
                 navigation={false}
                 modules={[Autoplay]}
                 className="mySwiper mt-14"
