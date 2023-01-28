@@ -55,14 +55,20 @@ const Topbar = () => {
                 order online
               </button>
             </div>
-            <div className="cart text-xl flex reletive">
+            {/* <div className="cart text-xl flex reletive">
               <div className="icon">
                 <BsFillCartFill />
               </div>
               <div className="number bg-red-600 text-white px-[6px] py-[.5px] rounded-full text-sm absolute ml-3 -mt-2">
                 4
               </div>
-            </div>
+            </div> */}
+            <button type="button" class="relative inline-flex items-center p-3 text-sm font-medium text-center">
+              <div className="icon text-xl">
+                <BsFillCartFill />
+              </div>
+              <div class="absolute inline-flex items-center justify-center w-5 h-5 text-xs font-bold text-white bg-red-500 border-1 border-white rounded-full top-0 right-0 dark:border-gray-900">4</div>
+            </button>
             <button className="media text-xl ml-6 flex md:hidden">
               <BiMenu />
             </button>

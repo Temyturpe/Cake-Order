@@ -4,7 +4,7 @@ const Singlemenu = ({ item }) => {
     return (
         <div
             key={item.id}
-            className="flex flex-col  h-auto w-full"
+            className="flex flex-col h-auto w-full"
         >
             <div className="product1 w-full  group relative">
                 <img

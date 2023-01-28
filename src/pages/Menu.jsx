@@ -4,7 +4,7 @@ import Menumain from '../components/menu/Menumain'
 
 const Menu = () => {
     return (
-        <div className='pt-20'>
+        <div className='pt-20 overflow-auto'>
             <Menuheader />
             <Menumain />
         </div>
