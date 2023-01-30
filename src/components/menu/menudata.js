@@ -20,7 +20,7 @@ import Menu15 from '../../assets/images/menu15.jpg'
 // import Menu20 from '../../assets/images/menu1.jpeg'
 export const menuData = [
     {
-        id: "1",
+        id: 1,
         image: Menu1,
         name: "Milk Chocolate cake",
         category: "cakes",
@@ -30,7 +30,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "2",
+        id: 2,
         image: Menu2,
         name: "Vanilla Cake",
         category: "Others",
@@ -41,7 +41,7 @@ export const menuData = [
     },
 
     {
-        id: "3",
+        id: 3,
         image: Menu3,
         name: "Chocolate Cake",
         category: "desserts",
@@ -52,7 +52,7 @@ export const menuData = [
     },
 
     {
-        id: "4",
+        id: 4,
         image: Menu4,
         name: "Valantine theme Cake",
         category: "chops",
@@ -63,7 +63,7 @@ export const menuData = [
     },
 
     {
-        id: "5",
+        id: 5,
         image: Menu5,
         name: "Vanilla Cupcakes",
         category: "cakes",
@@ -73,7 +73,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "6",
+        id: 6,
         image: Menu6,
         name: "Fruity Wedding Cake",
         category: "chops",
@@ -83,7 +83,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "7",
+        id: 7,
         image: Menu7,
         name: "Floral Wedding Cake",
         category: "breads",
@@ -93,7 +93,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "8",
+        id: 8,
         image: Menu8,
         name: "Chocolate Bar Cake",
         category: "breads",
@@ -103,7 +103,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "9",
+        id: 9,
         image: Menu9,
         name: "Floral Wedding Cake",
         category: "cakes",
@@ -113,7 +113,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "10",
+        id: 10,
         image: Menu10,
         name: "Bridal shower cake",
         category: "chops",
@@ -123,7 +123,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "11",
+        id: 11,
         image: Menu11,
         name: "Jungle theme cake",
         category: "chops",
@@ -133,7 +133,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "12",
+        id: 12,
         image: Menu12,
         name: "Figure cake",
         category: "desserts",
@@ -143,7 +143,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "13",
+        id: 13,
         image: Menu13,
         name: "Character cake",
         category: "desserts",
@@ -153,7 +153,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "14",
+        id: 14,
         image: Menu14,
         name: "Bridal theme cupcakes",
         category: "cakes",
@@ -163,7 +163,7 @@ export const menuData = [
         otherinfo: "Dairy free, nut free",
     },
     {
-        id: "15",
+        id: 15,
         image: Menu15,
         name: "Chrismas theme cake",
         category: "Others",

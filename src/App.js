@@ -16,7 +16,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route
             path="/detailpage/:id"
-            element={<Detailpage data={menuData} />}
+            element={<Detailpage item={menuData} />}
           />
         </Routes>
         <Footer />
