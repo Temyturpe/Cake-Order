@@ -2,8 +2,8 @@ import Footer from "./components/footer/Footer";
 import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
+import Details from './pages/Details';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Detailpage from "./pages/Detailpage";
 import { menuData } from "./components/menu/menudata";
 
 function App() {
@@ -13,10 +13,11 @@ function App() {
         <Topbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/menu" element={<Menu />} />
+          <Route path="/menu" element={<Menu data={menuData} />} />
           <Route
-            path="/detailpage/:id"
-            element={<Detailpage item={menuData} />}
+            path="/details/:id"
+            element={<Details data={menuData} />}
+
           />
         </Routes>
         <Footer />

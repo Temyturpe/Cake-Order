@@ -7,7 +7,7 @@ const Singlemenu = ({ item }) => {
             key={item.id}
             className="flex flex-col h-auto w-full"
         >
-            <Link to={`/detailpage/${item.id}`}>
+            <Link to={`/details/${item.id}`}>
                 <div className="product1 w-full  group relative">
                     <img
                         src={item.image}
