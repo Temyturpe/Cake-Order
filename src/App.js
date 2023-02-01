@@ -13,9 +13,9 @@ function App() {
         <Topbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/menu" element={<Menu data={menuData} />} />
+          <Route path="/menu" element={<Menu />} />
           <Route
-            path="/details/:id"
+            path="/menu/:name"
             element={<Details data={menuData} />}
 
           />
