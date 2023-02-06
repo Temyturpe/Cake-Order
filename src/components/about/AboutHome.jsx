@@ -4,7 +4,7 @@ import Baker from '../../assets/images/baker.png';
 
 const AboutHome = () => {
   return (
-    <div className='mt-36 bg-mid w-full h-[700px] sm:h-full overflow-hidden'>
+    <div className='mt-36 bg-mid w-full z-20 h-[700px] sm:h-full overflow-hidden'>
       <div className="content relative px-5 md:px-[120px] h-full mx-auto">
         <div className="icon flex items-end justify-end  w-full">
           <img src={Bgicon} alt="" className='-mr-52 opacity-40 w-[300px] md:w-[380px] ' /></div>
